@@ -13,7 +13,7 @@ import SecurityPolicyPage from './pages/SecurityPolicyPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import CopyrightPolicyPage from './pages/CopyrightPolicyPage';
 import DMCATakedownPolicyPage from './pages/DMCATakedownPolicyPage';
-import AcceptableUsePolicyPage from './pages/AcceptableusePolicyPage';
+import AcceptableUsePolicyPage from './pages/AcceptableUsePolicyPage';
 
 import VideoBackground from './components/VideoBackground';
 

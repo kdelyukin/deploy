@@ -12,8 +12,6 @@ interface Props {
 
 function DestinationAccordion({ destinations, selectedList }: Props) {
   const [addedDestinations, setAddedDestinations] = useState<string[]>([]);
-  const [userLists, setUserLists] = useState<any[]>([]);
-
   // Fetch user's lists
   useEffect(() => {
     const fetchUserLists = async () => {
@@ -28,8 +26,6 @@ function DestinationAccordion({ destinations, selectedList }: Props) {
         });
 
         if (response.status === 200) {
-          setUserLists(response.data.lists);
-
           // Check if a selectedList is provided
           if (selectedList) {
             const list = response.data.lists.find(
@@ -45,7 +41,7 @@ function DestinationAccordion({ destinations, selectedList }: Props) {
         }
       } catch (error) {
         console.error("Error fetching user lists:", error);
-        alert("Failed to fetch user lists.");
+        alert("Toekn Expired. Failed to fetch user lists. Please Login again!s.");
       }
     };
 
