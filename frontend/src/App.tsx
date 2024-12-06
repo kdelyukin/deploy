@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import SearchPage from './pages/SearchPage';
 import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
@@ -19,7 +19,6 @@ import VideoBackground from './components/VideoBackground';
 
 function App() {
   return (
-    <BrowserRouter>
       <VideoBackground videoSrc="background.mp4">
         <Header />
         <Routes>
@@ -38,7 +37,6 @@ function App() {
           <Route path="/acceptableusepolicy" element={<AcceptableUsePolicyPage />} />
         </Routes>
       </VideoBackground>
-    </BrowserRouter>
   )
 }
 
