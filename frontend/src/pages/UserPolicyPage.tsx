@@ -17,7 +17,7 @@ function UserPolicyPage() {
           <Card.Body>
             <Card.Title mb="2">Security Policy</Card.Title>
             <Card.Description>
-                Outlines the measures taken to protect user data and ensure the integrity of systems against unauthorized access and cyber threats.
+                Outlines the measures taken to protect user data and ensure the integrity of systems against cyber threats.
             </Card.Description>
           </Card.Body>
           <Card.Footer>
@@ -36,7 +36,7 @@ function UserPolicyPage() {
           <Card.Body>
             <Card.Title mb="2">Privacy Policy</Card.Title>
             <Card.Description>
-                Details how user information is collected, stored, used, and protected, ensuring compliance with data privacy regulations.
+                Details how user information is collected, stored, used, and protected, ensuring compliance.
             </Card.Description>
           </Card.Body>
           <Card.Footer>
@@ -55,7 +55,7 @@ function UserPolicyPage() {
           <Card.Body>
             <Card.Title mb="2">Copyright Policy</Card.Title>
             <Card.Description>
-                Explains how copyrighted content is handled and the steps for users to take if they believe their content has been infringed upon.
+                Explains how copyrighted content is handled and the steps ones content has been infringed upon.
             </Card.Description>
           </Card.Body>
           <Card.Footer>
@@ -93,7 +93,7 @@ function UserPolicyPage() {
           <Card.Body>
             <Card.Title mb="2">Acceptable use Policy</Card.Title>
             <Card.Description>
-                Sets guidelines for appropriate behavior and actions when using the service, prohibiting illegal, harmful, or disruptive activities.
+                Guidelines for appropriate behavior when using the service, prohibiting illegal, harmful, or disruptive activities.
             </Card.Description>
           </Card.Body>
           <Card.Footer>
